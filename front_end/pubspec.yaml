@@ -78,7 +78,8 @@ flutter:
   # the material Icons class.
   uses-material-design: true
   assets:
-    - assets/new-farah.png
+    - assets/kendy.png
+    - assets/kendy.jpg
 
   # To add assets to your application, add an assets section, like this:
   # assets:
@@ -122,4 +123,4 @@ flutter_launcher_icons:
     generate: false
   windows:
     generate: true
-    image_path: assets/new-farah.png
+    image_path: assets/kendy.jpg

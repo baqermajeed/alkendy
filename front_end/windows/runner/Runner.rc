@@ -89,13 +89,13 @@ BEGIN
     BEGIN
         BLOCK "040904e4"
         BEGIN
-            VALUE "CompanyName", "Farah Dental Clinic" "\0"
-            VALUE "FileDescription", "نظام إدارة عيادة الأسنان - فرح" "\0"
+            VALUE "CompanyName", "عيادة الكندي" "\0"
+            VALUE "FileDescription", "نظام إدارة عيادة الكندي" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "farah_dental_clinic_app" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2025 Farah Dental Clinic. All rights reserved." "\0"
-            VALUE "OriginalFilename", "farah_dental_clinic_app.exe" "\0"
-            VALUE "ProductName", "Farah Dental Clinic Management System" "\0"
+            VALUE "InternalName", "alkindi_clinic_app" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2025 Al-Kindi Dental Clinic. All rights reserved." "\0"
+            VALUE "OriginalFilename", "alkindi_clinic_app.exe" "\0"
+            VALUE "ProductName", "Al-Kindi Dental Clinic Management System" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

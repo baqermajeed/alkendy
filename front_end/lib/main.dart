@@ -17,7 +17,7 @@ class DentalClinicApp extends StatelessWidget {
     return ChangeNotifierProvider(
       create: (context) => AppProvider(),
       child: MaterialApp(
-        title: 'عيادة فرح لطب الأسنان',
+        title: 'عيادة الكندي',
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
           useMaterial3: true,

@@ -259,7 +259,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                         decoration: const BoxDecoration(shape: BoxShape.circle),
                         child: ClipOval(
                           child: Image.asset(
-                            "assets/new-farah.png",
+                            "assets/kendy.png",
                             fit: BoxFit.cover,
                           ),
                         ),
@@ -271,7 +271,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                           return Column(
                             children: [
                               Text(
-                                'عيادة فرح',
+                                'عيادة الكندي',
                                 style: GoogleFonts.cairo(
                                   fontSize: 18,
                                   fontWeight: FontWeight.w700,

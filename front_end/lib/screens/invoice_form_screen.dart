@@ -348,7 +348,7 @@ class _InvoiceFormScreenState extends State<InvoiceFormScreen> {
           ClipRRect(
             borderRadius: BorderRadius.circular(40),
             child: Image.asset(
-              'assets/new-farah.png',
+              'assets/kendy.png',
               width: 80,
               height: 80,
               fit: BoxFit.cover,
@@ -357,7 +357,7 @@ class _InvoiceFormScreenState extends State<InvoiceFormScreen> {
           const SizedBox(width: 20),
           const Expanded(
             child: Text(
-              'عيادة فرح لطب الأسنان',
+              'عيادة الكندي لطب الأسنان',
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 24,
@@ -631,7 +631,7 @@ class _InvoiceFormScreenState extends State<InvoiceFormScreen> {
     }
 
     // تحميل صورة اللوغو
-    final logoBytes = await rootBundle.load('assets/new-farah.png');
+    final logoBytes = await rootBundle.load('assets/kendy.png');
     final logoImage = pw.MemoryImage(logoBytes.buffer.asUint8List());
 
     // حدود واضحة للجدول (خطوط داخلية وخارجية أوضح للطباعة)
@@ -695,7 +695,7 @@ class _InvoiceFormScreenState extends State<InvoiceFormScreen> {
                     pw.SizedBox(width: 20),
                     pw.Expanded(
                       child: pw.Text(
-                        'عيادة فرح لطب الأسنان',
+                        'عيادة الكندي لطب الأسنان',
                         style: pw.TextStyle(
                           color: PdfColors.white,
                           fontSize: 24,

@@ -155,7 +155,7 @@ class _LoginScreenState extends State<LoginScreen> {
         const SizedBox(height: 20),
         // عنوان العيادة
         Text(
-          'عيادة فرح لطب الأسنان',
+          'عيادة الكندي لطب الأسنان',
           style: Theme.of(context).textTheme.headlineMedium?.copyWith(
                 color: const Color(0xFF649FCC),
                 fontWeight: FontWeight.w700,
