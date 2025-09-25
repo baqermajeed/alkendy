@@ -1,13 +1,13 @@
 class ApiConfig {
   // إعدادات الخادم
-  static const String localhost = 'http://127.0.0.1:8001';
-  static const String androidEmulator = 'http://127.0.0.1:8001';
+  static const String localhost = 'http://168.231.87.21:8001';
+  static const String androidEmulator = 'http://168.231.87.21:8001';
   static const String networkIP =
-      'http://127.0.0.1:8001'; // غير هذا حسب IP جهازك
+      'http://168.231.87.21:8001'; // غير هذا حسب IP جهازك
 
   // استخدم baseUrl المناسب حسب البيئة
   static String get baseUrl {
-    return 'http://127.0.0.1:8001'; // ضع هنا IP أو دومين السيرفر
+    return 'http://168.231.87.21:8001'; // ضع هنا IP أو دومين السيرفر
   }
 
   // مسارات API الجديدة
